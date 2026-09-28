@@ -14,12 +14,34 @@ function Main() {
           <a href="#orcamento" className="btn-primary">
             peça um orçamento
           </a>
-          <a href="#orcamento" className="btn-secundary">
+          <a href="#orcamento" className="btn-secondary">
             ver portfolio
           </a>
         </div>
       </section>
-      <section className="servicos"></section>
+      <section className="servicos">
+        <h2>nossos serviços</h2>
+
+         <div className="servicos-grid">
+          <div className="servico-card">
+            <span>😁</span>
+            <h3>design de interface</h3>
+            <p>telas clara, pensadas para o usuario</p>
+          </div>
+
+          <div className="servico-card">
+            <span>😂</span>
+            <h3>responsividade</h3>
+            <p>o mesmo site em qualquer tela</p>
+          </div>
+
+          <div className="servico-card">
+            <span>😎</span>
+            <h3>perfornance</h3>
+            <p>paginas leves que carregam rapidos</p>
+             </div>
+          </div>
+      </section>
     </main>
   );
 }
